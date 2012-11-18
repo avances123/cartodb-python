@@ -38,7 +38,7 @@ The following example requires your **CartoDB API consmer key and consumer secre
 ```python
 from cartodb import CartoDBOAuth, CartoDBException
 
-user =  'my_username'
+user =  'cartodb_username'
 password =  'secret'
 CONSUMER_KEY='YOUR_CARTODB_CONSUMER_KEY'
 CONSUMER_SECRET='YOUR_CARTODB_CONSUMER_SECRET'
@@ -57,7 +57,7 @@ You can get you api key in https://YOUR_USER.cartodb.com/your_apps/api_key
 ```python
 from cartodb import CartoDBAPIKey, CartoDBException
 
-user =  'me@mail.com'
+user =  'cartodb_username'
 API_KEY ='YOUR_CARTODB_API_KEY'
 cartodb_domain = 'YOUR_CARTODB_DOMAIN'
 cl = CartoDBAPIKey(API_KEY, cartodb_domain)
